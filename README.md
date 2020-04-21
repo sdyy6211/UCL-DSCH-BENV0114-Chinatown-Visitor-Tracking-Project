@@ -12,7 +12,7 @@ The ***NLP_training*** folder has the traning data for the BERT model.
 
 The ***Monthly comments*** folder contains comments within the latest month scraped from Google Maps
 
-The ***Popularity* folder contains the popularity of each site in the Chinatown London
+The ***Popularity*** folder contains the popularity of each site in the Chinatown London
 
 ***metadata.csv*** contains the metadata for each site, including their name, place id, coordinates, number of reviews, etc.
 
