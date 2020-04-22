@@ -38,4 +38,4 @@ Paths in the code files have to be changed when using the codes, and the chromed
 
 9. ***sum_alldata_extra_2.csv*** summarizes all the data in the ***NLP_training*** folder
 
-10. ***num_reviews*** records the number of reviews of each site per month
+10. ***num_reviews.csv*** records the number of reviews of each site per month
