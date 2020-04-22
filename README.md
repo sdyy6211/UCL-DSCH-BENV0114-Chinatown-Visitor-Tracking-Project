@@ -3,7 +3,7 @@
 #### These are codes and relevant data for the assignment of BENV0114
 
 Note that as a result of data analysis, some files are no longer stored as described in the table of the assignment. Some csv files may 
-have duplicated information, but they are uploaded because they may needed by different codes.
+have duplicated information, but they are uploaded because they may needed by different codes. Besides, some empty folder used to temporarily store scraped data are missing. They need to be created manually when used. 
 
 1. The ***Codes*** folder contains all the codes used for this assignment.
 Paths in the code files have to be changed when using the codes, and the chromedriver in selenium used to scraping data has to be downloaded from https://chromedriver.chromium.org/downloads. 
