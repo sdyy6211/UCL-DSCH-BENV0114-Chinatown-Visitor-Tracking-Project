@@ -10,9 +10,9 @@ Paths in the code files have to be changed when using the codes, and the chromed
 
   - ***CHINATOWN_RETRIEVE.ipynb*** contains codes used to retrieve data from Google Maps official API
 
-  - ***NLP_inference.ipynb*** is used for using BERT to make inferences and sentiment analysis on the collected data
-
   - ***NLP_train.ipynb*** is used to train the BERT model
+  
+  - ***NLP_inference.ipynb*** is used for using BERT to make inferences and sentiment analysis on the collected data, this should be runned after using ***NLP_train.ipynb*** to train the model and get the ***bert2.pt*** file which contains trained parameters
 
   - ***getpopularity.ipynb*** retrieves popularity of each site from Google Maps
 
