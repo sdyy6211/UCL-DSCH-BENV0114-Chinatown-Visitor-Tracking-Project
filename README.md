@@ -10,9 +10,9 @@ Paths in the code files have to be changed when using the codes, and the chromed
 
   - ***CHINATOWN_RETRIEVE.ipynb*** contains codes used to retrieve data from Google Maps official API
 
-  - ***NLP_inference.ipynb*** is used for using BERT to make inferences and sentiment analysis on the collected data
-
   - ***NLP_train.ipynb*** is used to train the BERT model
+  
+  - ***NLP_inference.ipynb*** is used for using BERT to make inferences and sentiment analysis on the collected data, this should be runned after using ***NLP_train.ipynb*** to train the model and get the ***bert2.pt*** file which contains trained parameters
 
   - ***getpopularity.ipynb*** retrieves popularity of each site from Google Maps
 
@@ -24,13 +24,13 @@ Paths in the code files have to be changed when using the codes, and the chromed
 
 2. The ***NLP_training*** folder has the traning data for the BERT model.
 
-3. The ***Monthly comments*** folder contains comments within the latest month scraped from Google Maps
+3. The ***monthly comments*** folder contains comments within the latest month scraped from Google Maps
 
-4. The ***Popularity*** folder contains the popularity of each site in the Chinatown London
+4. The ***popularity*** folder contains the popularity of each site in the Chinatown London
 
 5. ***metadata.csv*** contains the metadata for each site, including their name, place id, coordinates, number of reviews, etc.
 
-6. ***month_reviews.csv*** summarizes all the comments from the ***Monthly comments*** folder
+6. ***month_reviews.csv*** summarizes all the comments from the ***monthly comments*** folder
 
 7. ***places.txt*** contains the names of all sites used in this assignment
 
