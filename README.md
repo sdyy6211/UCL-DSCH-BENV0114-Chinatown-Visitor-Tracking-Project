@@ -21,6 +21,10 @@ Paths in the code files have to be changed when using the codes, and the chromed
   - ***scrapy_process.ipynb*** makes the t-test for the mean of two groups
 
   - ***scarpyv2.ipynb*** scrapes the comments from Google Maps
+  
+  - ***GOOGLEMAP_process.ipynb*** contains codes used to check whether places are within the Chinatown
+  
+  - ***xgboost_training.ipynb*** is the used to train the xgboost classifier
 
 2. The ***NLP_training*** folder has the traning data for the BERT model.
 
