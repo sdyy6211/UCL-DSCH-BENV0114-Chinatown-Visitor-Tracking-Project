@@ -64,9 +64,7 @@ Secondly, whether culture aspect has an influence on the visitors’ experiences
 
 Since Chinatown is composed of different independent small sites, it is difficult to collect all the demographic data of the whole site. Therefore, a new method is proposed to roughly measure the number of visitors for each site based on the ratio of number of actual visiting and the number of comments of this place on Google Maps. This ratio can be expressed as
 
-\begin{equation}
-Ratio = frac{number of people who visited this place per month}{number of comments of this site on Google Maps per month}
-\end{equation}
+<img src="https://render.githubusercontent.com/render/math?math= Ratio \= frac{number of people who visited this place per month}{number of comments of this site on Google Maps per month}">
 
 The assumption of this method is that a visitor only visits one site in Chinatown in each tour. Once this ratio has been estimated, the number of total visitors can be calculated by using the annual total number of comments of all sites in Chinatown on Google Maps.
 
