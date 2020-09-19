@@ -1,7 +1,13 @@
 # BENV0114
 
 ## Project introduction
-This project tracks the visitors in Chinatown London from three perspectives, namely visitors' experiences, visitor number prediction and visitor positioning based on the data retrieved and scraped from Google Maps. The main findings and results from this project are as follows (1) A language model based on BERT is built for local authorities and conservators to analyze visitors' experiences quantitatively, and a t-test is conducted concluding that visitors' experiences are positively related to cultural aspects of a site. (2) A method based on the ratio of number of people visiting a site and number of comments on social media on this site is proposed to roughly estimate the number of visitors for a complex cultural heritage site which is composed of different independent sites. (3) A dynamic heatmap in a week is made based on number of visiotrs of each site at different time, showing that the peak of visitor flow is in the evening of Saturday.
+This project tracks the visitors in Chinatown London from three perspectives, namely visitors' experiences, visitor number prediction and visitor positioning based on the data retrieved and scraped from Google Maps. The main findings and results from this project are as follows:
+
+1. A language model based on BERT is built for local authorities and conservators to analyze visitors' experiences quantitatively, and a t-test is conducted concluding that visitors' experiences are positively related to cultural aspects of a site. 
+
+2. A method based on the ratio of number of people visiting a site and number of comments on social media on this site is proposed to roughly estimate the number of visitors for a complex cultural heritage site which is composed of different independent sites. 
+
+3. A dynamic heatmap in a week is made based on number of visiotrs of each site at different time, showing that the peak of visitor flow is in the evening of Saturday.
 
 #### These are codes and relevant data for the assignment of BENV0114
 
