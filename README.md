@@ -9,7 +9,31 @@ This project tracks the visitors in Chinatown London from three perspectives, na
 
 3. A dynamic heatmap in a week is made based on number of visiotrs of each site at different time, showing that the peak of visitor flow is in the evening of Saturday.
 
-#### These are codes and relevant data for the assignment of BENV0114
+## Results presentation
+
+#### 1. Language model
+
+The comments and corresponding ratings collected can be used to make sentiment analysis to evaluate the visitors’ experiences. Firstly, those data are used to build a language model to conduct sentiment analysis on visitors' comments. To be more specific, Bidirectional Encoder Representations from Transformers BERT along with a Gated Recurrent Units (GRU) are chosen as the language model given its superior ability in recent NLP realm. Further, The dataset is split into training set, validation set and testing set, with a size of 15,849, 1000 and 1000 respectively. In its training phase, each comment can be viewed as an observation, and its corresponding rating can be seen as the target for the model. The words in each comment are tokenized in order to be fed into the model. The model has been trained with 10 epochs, and the best model was selected using the result from the validation set. In addition, despite of the predicting ability of the model, this model can also show the cosine similarity between words, which may be useful for further research.
+
+Secondly, whether culture aspect has an influence on the visitors’ experiences is explored by analyzing the importance of each word in a given input comment to show the words that are vital for model’s prediction, and used BERT to find similarities between words.
+
+![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/NLP2.JPG?raw=true)
+
+![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/wordsimcom.PNG?raw=true)
+
+#### 2. Prediction of annual visitor number with intervals
+
+Since Chinatown is composed of different independent small sites, it is difficult to collect all the demographic data of the whole site. Therefore, a new method is proposed to roughly measure the number of visitors for each site based on the ratio of number of actual visiting and the number of comments of this place on Google Maps. Once this ratio has been estimated, the number of total visitors can be calculated by using the annual total number of comments of all sites in Chinatown on Google Maps. (The assumption of this method is that a visitor only visits one site in Chinatown in each tour)
+
+![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/pred_num.jpg?raw=true)
+
+#### 3. Dynamic map of Chinatown London
+
+Based on the estimated visitor number and popularity time retrieved from Google Maps, the heatmap can be produced.
+
+![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/dynamicmap.gif?raw=true)
+
+## Codes and relevant data 
 
 Note that as a result of data analysis, some files are no longer stored as described in the table of the assignment. Some csv files may 
 have duplicated information, but they are uploaded because they may needed by different codes. Besides, some empty folder used to temporarily store scraped data are missing. They need to be created manually when used. 
@@ -53,27 +77,3 @@ Paths in the code files have to be changed when using the codes, and the chromed
 
 10. ***num_reviews.csv*** records the number of reviews of each site per month
 
-
-## Results presentation
-
-#### 1. Language model
-
-The comments and corresponding ratings collected can be used to make sentiment analysis to evaluate the visitors’ experiences. Firstly, those data are used to build a language model to conduct sentiment analysis on visitors' comments. To be more specific, Bidirectional Encoder Representations from Transformers BERT along with a Gated Recurrent Units (GRU) are chosen as the language model given its superior ability in recent NLP realm. Further, The dataset is split into training set, validation set and testing set, with a size of 15,849, 1000 and 1000 respectively. In its training phase, each comment can be viewed as an observation, and its corresponding rating can be seen as the target for the model. The words in each comment are tokenized in order to be fed into the model. The model has been trained with 10 epochs, and the best model was selected using the result from the validation set. In addition, despite of the predicting ability of the model, this model can also show the cosine similarity between words, which may be useful for further research.
-
-Secondly, whether culture aspect has an influence on the visitors’ experiences is explored by analyzing the importance of each word in a given input comment to show the words that are vital for model’s prediction, and used BERT to find similarities between words.
-
-![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/NLP2.JPG?raw=true)
-
-![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/wordsimcom.PNG?raw=true)
-
-#### 2. Prediction of annual visitor number with intervals
-
-Since Chinatown is composed of different independent small sites, it is difficult to collect all the demographic data of the whole site. Therefore, a new method is proposed to roughly measure the number of visitors for each site based on the ratio of number of actual visiting and the number of comments of this place on Google Maps. Once this ratio has been estimated, the number of total visitors can be calculated by using the annual total number of comments of all sites in Chinatown on Google Maps. (The assumption of this method is that a visitor only visits one site in Chinatown in each tour)
-
-![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/pred_num.jpg?raw=true)
-
-#### 3. Dynamic map of Chinatown London
-
-Based on the estimated visitor number and popularity time retrieved from Google Maps, the heatmap can be produced.
-
-![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/dynamicmap.gif?raw=true)
