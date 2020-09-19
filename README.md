@@ -33,7 +33,7 @@ Based on the estimated visitor number and popularity time retrieved from Google 
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/dynamicmap.gif?raw=true)
 
-## Codes and relevant data 
+## Structure of codes and relevant data 
 
 Note that as a result of data analysis, some files are no longer stored as described in the table of the assignment. Some csv files may 
 have duplicated information, but they are uploaded because they may needed by different codes. Besides, some empty folder used to temporarily store scraped data are missing. They need to be created manually when used. 
