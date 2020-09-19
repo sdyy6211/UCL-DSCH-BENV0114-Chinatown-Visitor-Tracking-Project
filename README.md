@@ -23,7 +23,7 @@ Secondly, whether culture aspect has an influence on the visitors’ experiences
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/wordsimcom.PNG?raw=true)
 |:--:| 
-| *The word similarity* |
+| *The word similarity measured by Cosine similarity* |
 
 #### 2. Prediction of annual visitor number with intervals
 
@@ -38,6 +38,8 @@ Since Chinatown is composed of different independent small sites, it is difficul
 Based on the estimated visitor number and popularity time retrieved from Google Maps, the heatmap can be produced.
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/dynamicmap.gif?raw=true)
+|:--:| 
+| *A dynamic heatmap of Chinatown London for each weekday* |
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/heatmj.jpg?raw=true)
 |:--:| 
