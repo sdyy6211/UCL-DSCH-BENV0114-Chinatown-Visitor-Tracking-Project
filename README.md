@@ -18,20 +18,31 @@ The comments and corresponding ratings collected can be used to make sentiment a
 Secondly, whether culture aspect has an influence on the visitors’ experiences is explored by analyzing the importance of each word in a given input comment to show the words that are vital for model’s prediction, and used BERT to find similarities between words.
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/NLP2.JPG?raw=true)
+|:--:| 
+| *This figure shows how each word can affect the prediction fo the NLP model. The words at the rhs increase the probability of in this class; while the words at the lhs decreases this probability* |
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/wordsimcom.PNG?raw=true)
+|:--:| 
+| *The word similarity* |
 
 #### 2. Prediction of annual visitor number with intervals
 
 Since Chinatown is composed of different independent small sites, it is difficult to collect all the demographic data of the whole site. Therefore, a new method is proposed to roughly measure the number of visitors for each site based on the ratio of number of actual visiting and the number of comments of this place on Google Maps. Once this ratio has been estimated, the number of total visitors can be calculated by using the annual total number of comments of all sites in Chinatown on Google Maps. (The assumption of this method is that a visitor only visits one site in Chinatown in each tour)
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/pred_num.jpg?raw=true)
+|:--:| 
+| *Confidence interval for the prediction* |
 
 #### 3. Dynamic map of Chinatown London
 
 Based on the estimated visitor number and popularity time retrieved from Google Maps, the heatmap can be produced.
 
 ![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/dynamicmap.gif?raw=true)
+
+![](https://github.com/sdyy6211/BENV0114-Chinatown/blob/master/heatmj.jpg?raw=true)
+|:--:| 
+| *Static representation of the heatmap above* |
+
 
 ## Structure of codes and relevant data 
 
